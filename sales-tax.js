@@ -36,7 +36,6 @@ function calculateSalesTax(salesData, taxRate){
   return obj;
 }
 
-
 // HELPER FUNCTIONS
 function totalSales(companyName, salesData){
   var sum = 0;
@@ -98,15 +97,3 @@ function compProvs(salesData, companyName){
 var results = calculateSalesTax(companySalesData, salesTaxRates);
 console.log(results);
 
-/* Expected Results:
-{
-  Telus: {
-    totalSales: 1300
-    totalTaxes: 144
-  },
-  Bombardier: {
-    totalSales: 800,
-    totalTaxes: 40
-  }
-}
-*/
